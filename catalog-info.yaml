@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "winnerssssss"
+  annotations:
+    backstage.io/kubernetes-id: "winnerssssss"
+    backstage.io/techdocs-ref: dir:.
+    grafana/overview-dashboard: https://grafana.local.lan.vernal.dev/d/X6mdr1hnz/loki?orgId=1
+    github.com/project-slug: 
+  links:
+  
+  - title: backend
+    url: https://backend-winnerssssss-group-default-guests-app.local.lan.vernal.dev
+  
+  - title: frontend
+    url: https://frontend-winnerssssss-group-default-guests-app.local.lan.vernal.dev
+  
+  - url: https://app.snyk.io/org/vernaldev
+    title: Snyk
+    icon: Dashboard
+spec:
+  type: service
+  owner: "group:default/guests"
+  lifecycle: experimental
+
